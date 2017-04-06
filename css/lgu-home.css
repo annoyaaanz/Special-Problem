@@ -1,0 +1,56 @@
+@media (min-width:900px){
+	.min-width: 60%;
+}
+*{font-family: "Roboto Condensed", sans-serif;}
+.required-color { color: red; }
+.lgu-sidebar { display: block; padding: 10px 15px; cursor: pointer;}
+.side-active { transition: color 0.5s, background 0.5s; color: white; background: #6b6b80; }
+.inactive { transition: color 0.5s, background 0.5s; color: black; background: none;}
+.logout-icon {cursor: pointer;}
+.btn-transparent{background: transparent;}
+.dropdown-messages{width: 20px;}
+.logout-btn {padding: 0px;background: none; margin-left: -1px;text-align: left;}
+.top-icons{transition: color 0.5s, background 0.5s;color: black;background: none;}
+.top-icons:hover{transition: color 0.5s, background 0.5s;color: black;background: transparent;}
+.highlight { background: #f2dede; font-weight: bold; font-style: italic;}
+.center-text { text-align: center;}
+.left-text {text-align: left;}
+.modal-width { width: 97.5%;}
+.plain {background-color: transparent; }
+.plain:hover {background-color: transparent; }
+.grouped { width: 33.33%;}
+.error-messages-div {text-align: left;}
+.error-messages-red {color: #a94442; background-color: #f2dede; border-color: #ebccd1; border-radius: 3px; padding: 7px;}
+.error-messages-warn {color: #8a6d3b; background-color: #fcf8e3; border-color: #faebcc; border-radius: 3px; padding: 7px;}
+.error-messages-transparent { background-color: transparent; border-color: transparent; border-radius: 3px; padding: 7px; }
+.error-messages-green { color: #3c763d; background-color: #dff0d8; border-color: #d6e9c6; border-radius: 3px; padding: 7px;}
+.view-by, .category { font-size: 15px; font-weight: 700;}
+.date-range { width: 200px; margin-left: -11px;}
+.edit-evac-stat-btn {margin-top: 12px;}
+
+span .navbar-icon {color: #333333;}
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {-webkit-appearance: none; margin: 0;}
+input[type="number"]{ -moz-appearance: textfield;}
+input[type="number"]:hover, input[type="number"]:focus {-moz-appearance: number-input; }
+textarea { resize: none;}
+
+.btn-request-send {background: black;}
+.btn-trans { cursor: pointer; border: none; display: inline;}
+.btn-trans:hover { color: blue;  text-decoration: underline;}
+/* IDs */
+#characters-left { font-size: 14px;}
+#weather-desciption {text-transform: capitalize;}
+img#umbrella-icon{ filter: grayscale(100%);}
+
+td{
+	word-wrap: break-word;
+}
+#map { background: skyblue; width: 100%; height: 450px; margin-left: 0; margin-bottom: 10px; }
+#spot-alert { background: red; width: 100%; height: 300px; margin-left: 0; margin-bottom: 10px; }
+#alert-map { background: blue; width: 100%; height: 450px; margin-left: 0; margin-bottom: 10px; }
+#evac-map { background: pink; width: 100%; height: 450px; margin-left: 0; margin-bottom: 10px; }
+#choices-views{ width: 200px;}
+#category-views{ width: 200px;}
+#category-view-div{ margin-top: 12px;}
+#date-range-div { margin-top: 12px;}
+#households-div, #date-range-div-sent, #alert-type-view-div, #warning-no-cat {margin-top: 1%;}

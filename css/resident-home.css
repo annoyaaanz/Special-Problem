@@ -1,0 +1,72 @@
+
+*{font-family: "Roboto Condensed", sans-serif;}
+.resident-sidebar { display: block; padding: 10px 15px; cursor: pointer;}
+.side-active { transition: color 0.5s, background 0.5s; color: white; background: #6b6b80;}
+.inactive { transition: color 0.5s, background 0.5s; color: black; background: none;}
+.logout-icon {cursor: pointer;}
+.btn-transparent{background: transparent;}
+.dropdown-messages{width: 20px;}
+.logout-btn {padding: 0px;background: none; margin-left: -1px;text-align: left;}
+.top-icons{transition: color 0.5s, background 0.5s;color: black;background: none;}
+.top-icons:hover{transition: color 0.5s, background 0.5s;color: black;background: transparent;}
+.center-text { text-align: center;}
+.left-text { text-align: left;}
+.right-text { text-align: right;}
+.btn-no-padding{ transition: color 0.5s; padding: 0px; }
+.btn-no-padding:hover{ transition: color 0.5s; color: #333; }
+.right-navbar-options {	color: #6b6b80;}
+.logout-icon { cursor: pointer;}
+.panel-left-right {margin-left: -15px; margin-right: -15px;}
+.sidenote{ font-style: italic; font-size: 11px;}
+.valid-office-name {color: green;}
+.error-messages-div {text-align: center;}
+.error-messages-red {color: #a94442; background-color: #f2dede; border-color: #ebccd1; border-radius: 3px; padding: 7px;}
+.error-messages-warn {color: #8a6d3b; background-color: #fcf8e3; border-color: #faebcc; border-radius: 3px; padding: 7px;}
+.error-messages-transparent { background-color: transparent; border-color: transparent; border-radius: 3px; padding: 7px; }
+.error-messages-green { color: #3c763d; background-color: #dff0d8; border-color: #d6e9c6; border-radius: 3px; padding: 7px;}
+
+
+.badge-red {
+	background-color: #f2dede; 
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    color: #a94442;
+    border-color: #ebccd1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border-radius: 10px;
+}
+.badge-normal {
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: #777;
+    border-radius: 10px;
+}
+/* IDs */
+#map { background: red; width: 100%; height: 450px;}
+#weather-desciption {text-transform: capitalize;}
+img#umbrella-icon{ filter: grayscale(100%);}
+#error-msgs{ margin-top: 4px;}
+/* TAGS */
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] {
+    -moz-appearance:textfield;
+}
+textarea{ resize: none;}

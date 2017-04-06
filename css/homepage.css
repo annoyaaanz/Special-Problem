@@ -1,0 +1,150 @@
+*{
+    font-family: "Roboto Condensed", sans-serif;
+}
+#outer-wall { 
+    background: url(../images/wallpaper-5.jpg) no-repeat center center; 
+    background-size: cover;
+}
+#inner-wall-left { 
+    background: rgba(255, 255, 255, 0.3); 
+    margin-top: 20vh; 
+    height: 60vh; 
+    /*border: 2px solid rgb(23, 51, 68);*/
+    text-align: center;
+    border-radius: 2px;
+}
+#inner-wall-right { 
+    vertical-align: middle; 
+    height: 100vh; 
+    min-height: 100vh; 
+    text-align: center; 
+}
+#inner-right-left { 
+    background: rgba(255, 255, 255, 0.3);
+    height: 49vh;
+    border-radius: 2px;
+    border-bottom: 2px solid rgb(23, 51, 68);
+}
+#inner-right-right {
+    background: rgba(255, 255, 255, 0.3);
+    height: 49vh;
+    border-radius: 2px;
+    border-top: 2px solid rgb(23, 51, 68);
+}
+
+
+
+#hours, #minutes, #seconds {
+    font-weight: bold;
+    background: white;
+    border-radius: 7px;
+    color: black;
+    padding: 12px;
+    font-size: 35px;
+}
+#period {
+    font-size: 35px;
+}
+#date {
+    font-size: 36px;
+}
+.colon {
+    font-size: 24px;
+    font-weight: bold;
+}
+.time-holder {
+    margin-top: 24px;
+    padding: 12px;
+    border-radius: 9px;
+    /*border: 1px solid black;*/
+    width: 50%;
+    margin-left: 25%;
+    padding: 12px;
+}
+
+#temperature, #city, #wind-speed, #weather-description {
+    font-size: 24px;
+    background: white;
+    color: black;
+    padding: 12px;
+    border-radius: 2px;
+}
+.weather-variable {
+    margin-bottom: 24px;
+}
+.login-buttons {
+    margin-top: 12px;
+}
+.login-button {
+    transition: border 0.5s, color 0.5s, background 0.5s;
+    border: 2px solid #449d44; 
+    width: 25%;
+    color: #449d44;
+}
+.login-button:hover {
+    transition: border 0.5s, color 0.5s, background 0.5s;
+    background: #449d44;
+    color: white;
+}
+.login-as-label { margin-top: 11vh; font-size: 20px;}
+.error-messages-login {
+    color: red;
+}
+.input-fields {
+    border-radius: 0px;
+    padding: 15px;
+}
+.weather-update-label {
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.buttons{
+    transition: color 0.5s, background 0.5s, padding 0.5s, font-size 0.5s, width 0.5s, height 0.5s, background 0.5s;
+    padding: 12px;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+      touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+    background: rgba(0, 0, 0, 0.7);
+    border: 1px solid transparent;
+    border-radius: 2px;
+    color: white;
+    width: 100px;
+    height: 100px;
+}
+.buttons:hover {
+    transition: color 0.5s, background 0.5s, padding 0.5s, font-size 0.5s, width 0.5s, height 0.5s, background 0.5s;
+    background: black;
+    color: white;
+    padding: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    width: 165px;
+    height: 100px;
+}
+/* Overwritten classes */
+.labels {
+    text-align: left;
+}.panel-title { font-weight: bold; text-align: center; }
+.modal-content { margin-left: 15%; width: 70%; }
+.btn-outline {
+    border: 0px;
+}
+a>.buttons {
+    text-decoration: none;
+}
+.error-messages-red {color: #a94442; background-color: #f2dede; border-color: #ebccd1; border-radius: 3px; padding: 8px;}
+.error-messages-transparent { background-color: transparent; border-color: transparent; border-radius: 3px; padding: 8px; }
+.error-messages-green { color: #3c763d; background-color: #dff0d8; border-color: #d6e9c6; border-radius: 3px; padding: 8px;}

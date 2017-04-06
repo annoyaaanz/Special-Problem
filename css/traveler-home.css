@@ -1,0 +1,17 @@
+*{font-family: "Roboto Condensed", sans-serif;}
+.traveler-sidebar { display: block; padding: 10px 15px; cursor: pointer;}
+.top-icons{transition: color 0.5s, background 0.5s;color: black;background: none;}
+.top-icons:hover{transition: color 0.5s, background 0.5s;color: black;background: transparent;}
+.side-active { transition: color 0.5s, background 0.5s; color: white; background: #6b6b80; font-weight: bold;}
+.inactive { transition: color 0.5s, background 0.5s; color: black; background: none;}
+.traveler-login-sign {	display: block;	padding: 10px 15px;	cursor: pointer;}
+.panel-title { font-weight: bold; text-align: center; }
+.modal-content { margin-left: 15%; width: 70%; }
+.login-btn{ text-align: center; }
+.panel-label { font-size: 18px; text-align: center;}
+.error-messages-div {text-align: center; margin-bottom: 9px;}
+.error-messages-red {color: #a94442; background-color: #f2dede; border-color: #ebccd1; border-radius: 3px; padding: 8px;}
+.error-messages-transparent { background-color: transparent; border-color: transparent; border-radius: 3px; padding: 8px; }
+.error-messages-green { color: #3c763d; background-color: #dff0d8; border-color: #d6e9c6; border-radius: 3px; padding: 8px;}
+#success-message {text-align: center;}
+#hidden-elem { visibility: hidden;}
