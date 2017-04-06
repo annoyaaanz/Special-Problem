@@ -1,0 +1,44 @@
+
+<script type="text/javascript" src="js/jquery.js"></script>
+
+<body>
+<form action="#" method="POST" id="form-members">
+                            <div class="panel-body">
+                            	<div class="form-group">
+                            		<label>Family Members: </label>
+
+                            			<div class=\"form-group\">
+
+                                                <label><input type="checkbox" id="resident1" name="resident1" value="1"> member1 (Household Head)</label><br/>
+                                				<label><input type="checkbox" id="resident2" name="resident2" value="2"> member2 </label>  (Member)<br/>
+                                				<label><input type="checkbox" id="resident3" name="resident3" value="3"> member3 </label>  (Member)<br/>
+                                				<label><input type="checkbox" id="resident4" name="resident4" value="4"> member4 </label>  (Member)<br/>
+                                				<label><input type="checkbox" id="resident5" name="resident5" value="5"> member5 </label>  (Member)<br/>
+                                				<label><input type="checkbox" id="resident6" name="resident6" value="6"> member6 </label>  (Member)<br/>
+												</div>
+                            	</div>
+                            </div>
+                            <div class="panel-footer center-text" >
+                                <button class="btn btn-success" type="submit" id="add-member-to-evac" name="add-to-evacuation-center" onclick="return confirm('Do you want to add the family members to this Evacuation Center?')"><span class="fa fa-building fa-fw"></span> Add Members to Evacuation Center</button>
+                            </div>
+                        </form>
+						</body>
+<script>
+
+    $("input:checkbox").change(function() {
+
+    var residentSelected = [];
+    var residentUnselected = [];
+
+    $("input:checkbox").each(function() {
+        if ($(this).is(":checked")) {
+            residentSelected.push($(this).attr("value"));
+        } else {
+            residentUnselected.push($(this).attr("value"));
+        }
+    });
+
+    console.log("Residents: "+ residentSelected)
+});
+
+</script>
